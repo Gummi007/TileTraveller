@@ -1,3 +1,5 @@
+#https://github.com/Gummi007/TileTraveller
+
 # 1. Seinna implementation-ið var mun auðveldara þar sem það var nánast búið að búa til allan kóðan í fyrra skiptið. 
 #    Eina sem þurfti að gera var að skoða fyrri verkefnið og sjá hvað var hægt að taka saman í hvaða föll, og svo 
 #    eiginlega bara copy, paste úr kóðanum í fyrra verkefninu inn í föllinn. Ef samt það ætti að gera implementation-in
@@ -8,8 +10,7 @@
 # 3. Skipulag er eitt vandamál í fyrra verkefninu sem hægt var að laga í seinna. Til dæmis í fyrra verkefninu var ég
 #    með while lykkju fyrir hverja staðsetningu sem athugaði hvort rétt input væri slegið inn, en í seinna verkefninu
 #    bjó ég til eitt fall sem gat sagt mér hvort rétt input væri slegið inn fyrir hvaða staðsetningu sem er. Semsagt
-#    seinna verkefnið leysta aðalega skipulagsleysi og endurtekningar.
-
+#    seinna verkefnið leysti aðalega skipulagsleysi, endurtekningar og læsileika.
 
 # position = [1,1]
 # north = "(N)orth"
