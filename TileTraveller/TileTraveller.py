@@ -199,7 +199,7 @@ def move_west(position):
     position[0] -= 1
     return position
 
-def move(direction, position):
+def move_position(direction, position):
     if direction == "n":
         return move_north(position)
     elif direction == "s":
@@ -217,5 +217,5 @@ while not is_winning(position):
     while not is_valid_move(direction, position):
         print("Not a valid direction!")
         direction = get_input().lower()
-    position = move(direction, position)    
+    position = move_position(direction, position)    
 print("Victory!")
