@@ -41,7 +41,7 @@ while position != [3,1]:
         else:
             position[1] = position[1] - 1
     elif position == [2,3]:
-        print ("You can travel: "  + east + ".")
+        print ("You can travel: "  + east + " or " + west + ".")
         direction = input("Direction: ")
         direction = direction.lower()
         while direction != "e":
@@ -50,7 +50,7 @@ while position != [3,1]:
             direction = direction.lower()
         position[0] = position[0] + 1
     elif position == [2,2]:
-        print ("You can travel: "  + west + " or " + south + ".")
+        print ("You can travel: "  + south + " or " + west + ".")
         direction = input("Direction: ")
         direction = direction.lower()
         while direction != "w" and direction != "s":
@@ -71,7 +71,7 @@ while position != [3,1]:
             direction = direction.lower()
         position[1] = position[1] + 1
     elif position == [3,3]:
-        print ("You can travel: "  + west + " or " + south + ".")
+        print ("You can travel: "  + south + " or " + west + ".")
         direction = input("Direction: ")
         direction = direction.lower()
         while direction != "w" and direction != "s":
