@@ -170,19 +170,19 @@ def is_valid_move(direction, position):
             return False
     
 def move_north(position):
-    position[1] = position[1] + 1
+    position[1] += 1
     return position
 
 def move_south(position):
-    position[1] = position[1] - 1
+    position[1] -= 1
     return position
 
 def move_east(position):
-    position[0] = position[0] + 1
+    position[0] += 1
     return position
 
 def move_west(position):
-    position[0] = position[0] + 1
+    position[0] -= 1
     return position
 
 def move(direction, position):
